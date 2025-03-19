@@ -138,7 +138,7 @@ p {
   }
 
   input:focus{
-    outline: none;
+    outline-color: transparent;
   }
 
   ::placeholder {
