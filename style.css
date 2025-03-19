@@ -21,8 +21,6 @@
   --soft-Red: hsl(0, 93%, 68%);
   --dark-Grayish-Red: hsl(0, 6%, 24%);
 
-  --linear-gradient: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
-
   --btn-bg: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   --btn-hover-bg: linear-gradient(135deg, hsl(0, 80%, 92%), hsl(0, 74%, 84%));
 }
