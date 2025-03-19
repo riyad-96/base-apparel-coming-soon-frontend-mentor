@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+  <main>
+
+    <div class="hero-wrapper">
+      <div class="logo-container">
+        <img src="./assets/images/logo.svg" alt="Base Apparel logo">
+      </div>
+
+      <div class="hero-mobile-image">
+        <img src="./assets/images/hero-mobile.jpg" alt="Hero image" loading="lazy">
+      </div>
+
+      <div class="description-form">
+        <h1><span>We're</span> coming soon</h1>
+
+        <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay
+          up-to-date with announcements and our launch deals.</p>
+
+
+        <div class="form">
+          <input type="email" name="email" id="emailInput" placeholder="Email Address" autocomplete="off" onkeyup="validateEmail()">
+          <button id="submitBtn" aria-label="submit button"><img src="./assets/images/icon-arrow.svg"></button>
+          <span id="errorMessage">Please provide a valid email</span>
+          <div id="errorIcon" class="errorIcon">
+            <img src="./assets/images/icon-error.svg" alt="error icon">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-desktop-image">
+      <img src="./assets/images/hero-desktop.jpg" alt="Hero Image" loading="lazy">
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!-- <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+
+</html>
